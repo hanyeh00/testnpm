@@ -1,1 +1,3 @@
-#this repository is test on express.js tutorial
+#this repository is about basic programming tutorial
+Javascript
+Mql5
