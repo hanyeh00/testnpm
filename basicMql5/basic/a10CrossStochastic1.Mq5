@@ -9,7 +9,7 @@
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
-double stoch1[];
+double stoch1[]; //indicator
 double stoch2[];
 int handler;
 int OnInit()
