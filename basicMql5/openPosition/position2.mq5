@@ -51,7 +51,7 @@ void OnDeinit(const int reason)
 void OnTick()
   {
 //---
-if (isNewBar()==true){
+if (isNewBar()==false){return; //out from current tick}
      if (PositionSelect(_Symbol)==true){if(Position_m.Profit()>100)
                                                 Trade_m.PositionClose(_Symbol) ;
                                         if(Position_m.Profit()<50)
@@ -59,7 +59,7 @@ if (isNewBar()==true){
      else{Trade_m.Buy(0.05);}
                                        
    
-  }}
+  }
   /*
   bool isNewBar()
      {static datetime olddate;
